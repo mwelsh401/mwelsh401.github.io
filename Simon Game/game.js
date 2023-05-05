@@ -5,6 +5,25 @@ var userClickedPattern = [];
 
 var level = 0;
 
+$("#start").click(function(){
+    
+    if (level === 0){
+    nextSequence();
+    $("h1").text("Level 1");
+} else {};
+})
+
+$(document).keydown(function(){
+    
+    if (level === 0){
+    nextSequence();
+    $("h1").text("Level 1");
+} else {};
+
+
+})
+
+
 $(document).keydown(function(){
     
     if (level === 0){

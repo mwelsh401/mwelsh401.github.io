@@ -50,3 +50,15 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+#start {
+  display: inline-flex;
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+  height: 50px;
+  border-radius: 50px;
+  border: 10px solid black;
+}
